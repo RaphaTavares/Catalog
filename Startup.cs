@@ -28,7 +28,7 @@ namespace catalog
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddSingleton<IInMemItemsRepository, InMemItemsRepository>();
+            services.AddSingleton<IItemsRepository, InMemItemsRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
