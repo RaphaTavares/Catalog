@@ -9,7 +9,7 @@
         {
             get
             {
-                return $"mongodb"
+                return $"mongodb://{Host}:{Port}";
             }
         }
     }
